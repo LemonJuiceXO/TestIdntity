@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/bunny/RiderProjects/TestIdntity/TestIdntity/obj/Debug/net8.0/scopedcss/projectbundle/TestIdntity.bundle.scp.css",
+      "PackagePath": "staticwebassets/TestIdntity.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/bunny/RiderProjects/TestIdntity/TestIdntity/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/bunny/RiderProjects/TestIdntity/TestIdntity/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/bunny/RiderProjects/TestIdntity/TestIdntity/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/bunny/RiderProjects/TestIdntity/TestIdntity/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.TestIdntity.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.TestIdntity.props",
+      "PackagePath": "build\\TestIdntity.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.TestIdntity.props",
+      "PackagePath": "buildMultiTargeting\\TestIdntity.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.TestIdntity.props",
+      "PackagePath": "buildTransitive\\TestIdntity.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

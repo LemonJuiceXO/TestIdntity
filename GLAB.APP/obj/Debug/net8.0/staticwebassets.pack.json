@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/obj/Debug/net8.0/scopedcss/projectbundle/GLAB.APP.bundle.scp.css",
+      "PackagePath": "staticwebassets/GLAB.APP.bundle.scp.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.GLAB.APP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.GLAB.APP.props",
+      "PackagePath": "build\\GLAB.APP.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.GLAB.APP.props",
+      "PackagePath": "buildMultiTargeting\\GLAB.APP.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.GLAB.APP.props",
+      "PackagePath": "buildTransitive\\GLAB.APP.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

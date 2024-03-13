@@ -1,0 +1,50 @@
+{
+  "Version": 1,
+  "Hash": "NJPZw8FcEAz59Ox16xaXvf1W80OFurU9JovI23NXSV4=",
+  "Source": "GLAB.Domain",
+  "BasePath": "_content/GLAB.Domain",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/scopedcss/bundle/GLAB.Domain.styles.css",
+      "SourceId": "GLAB.Domain",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/scopedcss/bundle/",
+      "BasePath": "_content/GLAB.Domain",
+      "RelativePath": "GLAB.Domain.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/scopedcss/bundle/GLAB.Domain.styles.css"
+    },
+    {
+      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/scopedcss/projectbundle/GLAB.Domain.bundle.scp.css",
+      "SourceId": "GLAB.Domain",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "BasePath": "_content/GLAB.Domain",
+      "RelativePath": "GLAB.Domain.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/scopedcss/projectbundle/GLAB.Domain.bundle.scp.css"
+    }
+  ]
+}

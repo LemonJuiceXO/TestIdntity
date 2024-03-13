@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GLAB.APP/1.0.0": {
+        "dependencies": {
+          "GLAB.Domain": "1.0.0"
+        },
+        "runtime": {
+          "GLAB.APP.dll": {}
+        }
+      },
+      "GLAB.Domain/1.0.0": {
+        "runtime": {
+          "GLAB.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GLAB.APP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GLAB.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

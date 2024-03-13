@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "GLAB.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/GLAB.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GLAB.Domain.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "GLAB.Domain/1.0.0": {
+      "type": "project",
+      "path": "../GLAB.Domain/GLAB.Domain.csproj",
+      "msbuildProject": "../GLAB.Domain/GLAB.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "GLAB.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/bunny/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/GLAB.APP.csproj",
+      "projectName": "GLAB.APP",
+      "projectPath": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/GLAB.APP.csproj",
+      "packagesPath": "/Users/bunny/.nuget/packages/",
+      "outputPath": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/bunny/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/GLAB.Domain.csproj": {
+              "projectPath": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/GLAB.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
