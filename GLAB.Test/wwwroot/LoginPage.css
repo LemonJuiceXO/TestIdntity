@@ -1,0 +1,51 @@
+    *{
+     padding: 0;
+     margin: 0;   
+    }
+    
+    .loginform{
+        border-color: #13a489;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(8, 133, 105, 0.6);
+         height: 100%;
+    }
+    .image{
+      width: 200px;
+        height: 200px;
+    }
+    .Fields{
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 10px;
+        text-align: -webkit-center;
+        
+    }
+    ::placeholder {
+        text-align: center;
+    }
+    
+    .loginButton{
+        padding: 10px;
+        background-color: white;
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 10px;
+        transition: all;
+        transition-duration: 0.5s;
+        -webkit-text-fill-color: black;
+        text-align: center;
+        width: 60px;
+    }
+    .loginButton:hover{
+        cursor: pointer;
+        background-color: #2d9bbd;
+        border-color: transparent;
+        -webkit-text-fill-color: #ffffff;
+    }

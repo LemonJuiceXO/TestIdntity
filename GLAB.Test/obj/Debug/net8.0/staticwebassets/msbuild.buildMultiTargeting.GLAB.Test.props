@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/GLAB.Test.props" />
+</Project>

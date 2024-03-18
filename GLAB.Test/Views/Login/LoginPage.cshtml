@@ -1,0 +1,31 @@
+@using GLAB.APP.Components
+@model dynamic
+
+
+<head>
+<link rel="stylesheet" href="LoginPage.css" />
+
+</head>
+<form method="post" action="/Login/Login" class="loginform">
+    <div>
+        <img src="IMG_0324.JPG" class="image"/>
+    </div>
+    <div>
+        <input type="email" name="username" class="Fields" placeholder="UserName"/>
+    </div>
+
+    <div>
+        <input type="password" name="password" class="Fields" placeholder="Password"/>
+    </div>
+
+    <div>
+        <button class="loginButton" onclick="">Login</button>
+    </div>
+   
+         @if (!string.IsNullOrEmpty(ViewBag.Error))
+            {
+                <div style="color: red;">@ViewBag.Error</div>
+            }
+
+</form>
+
