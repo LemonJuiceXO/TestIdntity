@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZFfJdZWclikMazOub1BMa8cM8egCLFEZCehHaNqKViU=",
+  "Hash": "9io69WrnPukVqebMDPw1vQcRJHvl3SN1BWcCJ/7iGXQ=",
   "Source": "GLAB.Test",
   "BasePath": "_content/GLAB.Test",
   "Mode": "Default",
@@ -423,6 +423,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.png"
+    },
+    {
+      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Test/wwwroot/IMG_0324.JPG",
+      "SourceId": "GLAB.Test",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Test/wwwroot/",
+      "BasePath": "_content/GLAB.Test",
+      "RelativePath": "IMG_0324.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/IMG_0324.JPG"
     },
     {
       "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Test/wwwroot/LoginPage.css",

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/GLAB.Test.bundle.scp.css"
     },
     {
+      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Test/wwwroot/IMG_0324.JPG",
+      "PackagePath": "staticwebassets/IMG_0324.JPG"
+    },
+    {
       "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Test/wwwroot/LoginPage.css",
       "PackagePath": "staticwebassets/LoginPage.css"
     },
