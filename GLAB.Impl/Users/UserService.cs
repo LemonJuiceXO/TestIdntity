@@ -43,6 +43,6 @@ public class UserService : IUserService
     public async Task<bool> ValidatePassword(string userId, string userPassword)
     {
        string password= await userStorage.SelectUserPassword(userId);
-       return passwordHasher.VerifyHashedPassword(password, userPassword);
+       return BCrypt.CheckPassword(userPassword, password);
     }
 }

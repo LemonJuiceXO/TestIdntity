@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIdntity", "TestIdntity\TestIdntity.csproj", "{05AB4F2E-5746-40E5-9D7C-3D9401E34960}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLAB.Test", "GLAB.Test\GLAB.Test.csproj", "{05AB4F2E-5746-40E5-9D7C-3D9401E34960}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLAB.infra", "GLAB.infra\GLAB.infra.csproj", "{AD58EB3A-BD75-4662-B545-8E5977043F65}"
 EndProject

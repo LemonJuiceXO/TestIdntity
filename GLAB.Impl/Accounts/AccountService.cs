@@ -16,27 +16,27 @@ public class AccountService : IAccount
         
     }
 
-    public async Task<IAccount.LoginStatus> CheckCredentials(string username, string password)
+    public async Task<(IAccount.LoginStatus,User)> CheckCredentials(string username, string password)
     {
        
         
       var user= await userService.GetUserByUserName(username);
 
       if (user == null || user.State == UserState.Deleted)
-          return IAccount.LoginStatus.UserNotExists;
+          return (IAccount.LoginStatus.UserNotExists,null);
 
       if (user.State == UserState.Bloqued)
-          return IAccount.LoginStatus.UserBlocked;
+          return (IAccount.LoginStatus.UserBlocked,null);
 
 
       bool isPasswordCorrect = await userService.ValidatePassword(user.UserId, password);
 
       if (isPasswordCorrect)
       {
-          return IAccount.LoginStatus.CanLogin;  
+          return (IAccount.LoginStatus.CanLogin,user);  
       }
 
-      return IAccount.LoginStatus.WrongCredentials;
+      return (IAccount.LoginStatus.WrongCredentials,null);
       
       
     }

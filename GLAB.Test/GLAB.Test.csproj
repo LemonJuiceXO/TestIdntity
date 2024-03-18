@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>TestIdntity</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\GLAB.APP\GLAB.APP.csproj" />
+      <ProjectReference Include="..\GLAB.Impl\GLAB.Impl.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="7.4.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Views\Login\LoginPage.cshtml" />
+      <AdditionalFiles Include="Views\Login\MainPage.cshtml" />
+    </ItemGroup>
+
+</Project>

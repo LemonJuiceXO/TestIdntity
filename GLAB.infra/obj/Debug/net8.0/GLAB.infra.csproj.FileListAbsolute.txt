@@ -39,3 +39,4 @@
 /Users/bunny/RiderProjects/TestIdntity/GLAB.infra/obj/Debug/net8.0/GLAB.infra.pdb
 /Users/bunny/RiderProjects/TestIdntity/GLAB.infra/obj/Debug/net8.0/GLAB.infra.genruntimeconfig.cache
 /Users/bunny/RiderProjects/TestIdntity/GLAB.infra/obj/Debug/net8.0/ref/GLAB.infra.dll
+/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/obj/Debug/net8.0/GLAB.infra.sourcelink.json

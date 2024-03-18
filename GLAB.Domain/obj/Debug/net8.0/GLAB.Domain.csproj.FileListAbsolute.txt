@@ -25,3 +25,4 @@
 /Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/GLAB.Domain.pdb
 /Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/GLAB.Domain.genruntimeconfig.cache
 /Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/ref/GLAB.Domain.dll
+/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/GLAB.Domain.sourcelink.json

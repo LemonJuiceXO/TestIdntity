@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uFzxC768CGr4q9lWOwywpWuqNNTpwVztLEBwqrkZv3s=",
+  "Hash": "0JJeREpXBgeEJDedNOwAIzGI6fdcyJqhFGPkSCVrlVI=",
   "Source": "GLAB.APP",
   "BasePath": "_content/GLAB.APP",
   "Mode": "Default",
@@ -18,7 +18,15 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GLAB.APP/wwwroot",
+      "Source": "GLAB.APP",
+      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/wwwroot/",
+      "BasePath": "_content/GLAB.APP",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [
     {
       "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/obj/Debug/net8.0/scopedcss/bundle/GLAB.APP.styles.css",

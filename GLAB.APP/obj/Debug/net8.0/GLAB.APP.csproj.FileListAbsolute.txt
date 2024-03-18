@@ -35,3 +35,4 @@
 /Users/bunny/RiderProjects/TestIdntity/GLAB.APP/obj/Debug/net8.0/ref/GLAB.APP.dll
 /Users/bunny/RiderProjects/TestIdntity/GLAB.APP/obj/Debug/net8.0/GLAB.APP.RazorAssemblyInfo.cache
 /Users/bunny/RiderProjects/TestIdntity/GLAB.APP/obj/Debug/net8.0/GLAB.APP.RazorAssemblyInfo.cs
+/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/obj/Debug/net8.0/GLAB.APP.sourcelink.json

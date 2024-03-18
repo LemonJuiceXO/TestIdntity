@@ -16,7 +16,7 @@ namespace Users.Infra.Storages
             "Select * from USERS where UserId = @aUserId";
        
         private const string SelectUserPasswordCommand =
-            "Select Password from USERS where UserId = @aUserId";
+                "Select Password from USERS where UserId = @aUserId";
        
         private const string SelectUserByUserNameCommand =
             "Select * from USERS where UserName = @aUserName";
@@ -56,7 +56,7 @@ namespace Users.Infra.Storages
         {
             await using var connection = new SqlConnection(connectionString);
             SqlCommand cmd = new(SelectUserPasswordCommand, connection);
-            cmd.Parameters.AddWithValue("@aUserName", userId);
+            cmd.Parameters.AddWithValue("@aUserId", userId);
 
             DataTable ds = new();
             SqlDataAdapter da = new(cmd);

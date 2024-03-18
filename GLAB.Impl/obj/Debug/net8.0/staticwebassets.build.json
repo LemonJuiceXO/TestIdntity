@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+/rW85rm/nOGTaa8WH8gm/HcbT8AUnRKTDhi4UuZM6I=",
+  "Hash": "g/5JUZ4L3lkPNddkap9Y7h/6g/S7hP3A26HUQ/qM//Q=",
   "Source": "GLAB.Impl",
   "BasePath": "_content/GLAB.Impl",
   "Mode": "Default",
@@ -41,6 +41,13 @@
     }
   ],
   "DiscoveryPatterns": [
+    {
+      "Name": "GLAB.APP/wwwroot",
+      "Source": "GLAB.APP",
+      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/wwwroot/",
+      "BasePath": "_content/GLAB.APP",
+      "Pattern": "**"
+    },
     {
       "Name": "GLAB.Impl/wwwroot",
       "Source": "GLAB.Impl",
