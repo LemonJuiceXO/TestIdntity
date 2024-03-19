@@ -1,0 +1,356 @@
+﻿
+* {
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+    * a {
+        text-decoration: none;
+        color: #0D2818;
+    }
+
+body {
+    background-color: #C7F9CC;
+}
+
+.nav-LoginUser {
+    display: flex;
+    justify-content: center;
+    border:none;
+}
+
+    nav .logonav img {
+        margin: -5vh 0;
+        height: 40vh;
+        width: 40vh;
+    }
+
+.LoginTitel {
+    display: flex;
+    justify-content: center;
+}
+
+    .LoginTitel h1 {
+        color: #0D2818;
+    }
+
+.loginform {
+    margin: -3vh 0;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+    .loginform .logincontent {
+        background-color: #fff;
+        padding: 3vh 4vh;
+        width: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 29px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+        .loginform .logincontent h2 {
+            color: #1A4E38;
+            margin-bottom: 3vh;
+        }
+
+        .loginform .logincontent form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+            .loginform .logincontent form input {
+                background-color: #C7F9CC;
+                border-color: transparent;
+                padding: 1.5vh;
+                margin-bottom: 3vh;
+                border-radius: 32px;
+                width: 42vh;
+            }
+
+                .loginform .logincontent form input::-moz-placeholder {
+                    color: #0D2818;
+                    text-align: center;
+                }
+
+                .loginform .logincontent form input::placeholder {
+                    color: #0D2818;
+                    text-align: center;
+                }
+
+            .loginform .logincontent form .PasswordIcon {
+                background-color: transparent;
+                color: #0D2818;
+                width: -moz-min-content;
+                width: min-content;
+                height: -moz-min-content;
+                height: min-content;
+                position: relative;
+                left: 40%;
+                bottom: 30%;
+            }
+
+            .loginform .logincontent form a {
+                color: #4FA66E;
+                font-size: 0.8rem;
+                font-weight: bold;
+                margin-top: -10vh;
+            }
+
+            .loginform .logincontent form button {
+                background-color: #1A4E38;
+                border-color: transparent;
+                padding: 1.5vh;
+                margin-bottom: 3vh;
+                margin-top: 3vh;
+                font-weight: bold;
+                color: #fff;
+                border-radius: 49px;
+                width: 50%;
+            }
+
+            .loginform .logincontent form h3 {
+                margin-top: 3vh;
+                font-size: 0.8rem;
+                color: #756F6F;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+                .loginform .logincontent form h3 a {
+                    font-weight: 100;
+                    border-bottom: 1px solid #4FA66E;
+                }
+
+footer {
+    background-color: #C7F9CC;
+}
+
+    footer .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+        footer .logo img {
+            height: 20vh;
+        }
+
+    footer .firstIcons {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+        footer .firstIcons ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+            footer .firstIcons ul li {
+                font-size: 20px;
+                margin-left: 10vh;
+                margin-right: 10vh;
+            }
+
+                footer .firstIcons ul li i {
+                    font-size: 25px;
+                    margin-left: -3vh;
+                    padding: 5px;
+                }
+
+    footer .line {
+        margin: 2% auto;
+        width: 70%;
+    }
+
+        footer .line hr {
+            border: 1px solid #0D2818;
+        }
+
+    footer .secandIcons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        footer .secandIcons .pages {
+            margin-left: 12vh;
+        }
+
+            footer .secandIcons .pages ul {
+                margin-top: -3vh;
+                list-style: none;
+                display: flex;
+                gap: 1.5vh;
+            }
+
+                footer .secandIcons .pages ul li:hover {
+                    font-size: 18px;
+                    transition: 0.2s;
+                    border-bottom: 3px solid #0D2818;
+                }
+
+        footer .secandIcons .sosialIcons ul {
+            margin-top: 1vh;
+            margin-bottom: 1vh;
+            list-style: none;
+            display: flex;
+            margin-right: 17vh;
+        }
+
+            footer .secandIcons .sosialIcons ul li {
+                margin-left: 3vh;
+            }
+
+                footer .secandIcons .sosialIcons ul li i {
+                    font-size: 20px;
+                }
+
+        footer .secandIcons .copyright {
+            margin-right: 12vh;
+        }
+
+            footer .secandIcons .copyright p {
+                margin-top: -3vh;
+            }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    footer .firstIcons ul li {
+        font-size: 15px;
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+
+        footer .firstIcons ul li i {
+            font-size: 20px;
+            margin-left: -3vh;
+            padding: 5px;
+        }
+
+    footer .secandIcons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        footer .secandIcons .pages {
+            margin-left: 1px;
+        }
+
+            footer .secandIcons .pages ul {
+                margin-top: 0vh;
+                list-style: none;
+                display: flex;
+                gap: 1vh;
+            }
+
+                footer .secandIcons .pages ul li {
+                    width: -moz-max-content;
+                    width: max-content;
+                }
+
+        footer .secandIcons .sosialIcons ul {
+            margin-top: 1vh;
+            margin-bottom: 1vh;
+            list-style: none;
+            display: flex;
+            margin-right: 17vh;
+        }
+
+            footer .secandIcons .sosialIcons ul li {
+                margin-left: 3vh;
+            }
+
+                footer .secandIcons .sosialIcons ul li i {
+                    font-size: 17px;
+                }
+
+        footer .secandIcons .copyright p {
+            margin-left: -11.5vh;
+            margin-top: 0vh;
+            width: -moz-max-content;
+            width: max-content;
+        }
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .loginform .logincontent {
+        padding: 3vh 4vh;
+        width: 33vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+        .loginform .logincontent form {
+            display: flex;
+            flex-direction: column;
+        }
+
+            .loginform .logincontent form input {
+                background-color: #C7F9CC;
+                border-color: transparent;
+                padding: 1.5vh;
+                margin-bottom: 3vh;
+                width: 30vh;
+            }
+
+                .loginform .logincontent form input::-moz-placeholder {
+                    color: #1A4E38;
+                }
+
+                .loginform .logincontent form input::placeholder {
+                    color: #1A4E38;
+                }
+
+            .loginform .logincontent form .PasswordIcon {
+                background-color: transparent;
+                color: #0D2818;
+                width: -moz-min-content;
+                width: min-content;
+                height: -moz-min-content;
+                height: min-content;
+                position: relative;
+                left: 80%;
+                bottom: 30%;
+            }
+
+            .loginform .logincontent form a {
+                color: #4FA66E;
+                font-size: 0.8rem;
+                font-weight: bold;
+                margin-top: -10vh;
+            }
+
+            .loginform .logincontent form button {
+                background-color: #1A4E38;
+                border-color: transparent;
+                padding: 1.5vh;
+                margin-bottom: 3vh;
+                margin-top: 3vh;
+                font-weight: bold;
+                color: #fff;
+            }
+
+            .loginform .logincontent form h3 {
+                margin-top: 3vh;
+                font-size: 0.8rem;
+                color: #756F6F;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+                .loginform .logincontent form h3 a {
+                    font-weight: 100;
+                    border-bottom: 1px solid #4FA66E;
+                }
+
+}
+/*# sourceMappingURL=main.css.map */

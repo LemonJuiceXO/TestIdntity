@@ -21,4 +21,15 @@
       <AdditionalFiles Include="Views\Login\MainPage.cshtml" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Update="Views\Login\CreateLabo.css">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\CreateLabo2.css" />
+    </ItemGroup>
+
 </Project>

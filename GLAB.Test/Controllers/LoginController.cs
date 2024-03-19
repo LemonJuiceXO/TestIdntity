@@ -30,7 +30,7 @@ public class LoginController : Controller
     }
     
     // GET
-    public IActionResult MainPage()
+    public IActionResult CreateLabo2()
     {
         return View();
     }
@@ -62,7 +62,9 @@ public class LoginController : Controller
             TempData["Error"] = "Empty Username Or Password ";
             
             return RedirectToAction("LoginPage");
+            
         }
+     
         
         
         var (Status,user) =  await _accountService.CheckCredentials(username, password);
@@ -97,8 +99,8 @@ public class LoginController : Controller
                 throw new Exception(e.ToString());
                 
             }
-           
-          return  RedirectToAction("MainPage");
+         
+          return  RedirectToAction("CreateLabo2");
         }
         else
         {
@@ -128,8 +130,14 @@ public class LoginController : Controller
     {
         HttpContext.SignOutAsync();
       return RedirectToAction("LoginPage");
+      
     }
     //GUID
+    /*public async Task<IActionResult> Logout()
+    {
+        await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+        return RedirectToAction("LoginPage", "Login"); // Rediriger vers la page de connexion après la déconnexion.
+    }*/
     
     
 }

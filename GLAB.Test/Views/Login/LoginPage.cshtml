@@ -1,5 +1,6 @@
-@using GLAB.APP.Components
-@model dynamic
+@*
+@#1#using GLAB.APP.Components
+@model dynamic#1#
 
 
 <head>
@@ -28,6 +29,7 @@
     {
         <div style="color: #ff0059; margin-top: 30px ">@ViewBag.Error</div>
     }
+  
 
 </form>
 
@@ -35,4 +37,59 @@
 
 
 </script>
+*@
+<head>
+    <link rel="stylesheet" href="LoginUser.css" />
+
+</head>
+<body>
+    <nav class="nav-LoginUser">
+
+        <div class="logonav">
+            <img src="9.svg">
+           
+        </div>
+
+    </nav>
+
+    <section class="loginform">
+
+        
+
+        <div class="logincontent">
+            
+            <div class="LoginTitel">
+                
+                </div>
+            <h2>Login</h2>
+            <form method="post" action="/Login/Login" class="loginform">
+                
+                 <input type="email" name="username" placeholder="اسم المستخدم"/>
+                <input type="password" name="password" placeholder="كلمة المرور"/>
+                <button type="button" class="PasswordIcon" onclick=myFunction()><i class="bi bi-eye-slash-fill"></i></button>
+                <a href="#">Forget Password?</a>
+                
+                <button  onclick="">دخول</button>
+
+                <h3>No account? <a href="#">request membership</a> </h3>
+            </form>
+        </div>
+      
+
+        
+        
+    </section>
+    
+
+    <SCript>
+        function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+    </SCript>
+</body>
 

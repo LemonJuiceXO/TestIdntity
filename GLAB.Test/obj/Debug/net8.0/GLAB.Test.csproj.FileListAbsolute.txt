@@ -148,3 +148,5 @@ C:\Users\radoi\RiderProjects\TestIdntity\GLAB.Test\obj\Debug\net8.0\refint\GLAB.
 C:\Users\radoi\RiderProjects\TestIdntity\GLAB.Test\obj\Debug\net8.0\GLAB.Test.pdb
 C:\Users\radoi\RiderProjects\TestIdntity\GLAB.Test\obj\Debug\net8.0\GLAB.Test.genruntimeconfig.cache
 C:\Users\radoi\RiderProjects\TestIdntity\GLAB.Test\obj\Debug\net8.0\ref\GLAB.Test.dll
+C:\Users\radoi\RiderProjects\TestIdntity\GLAB.Test\obj\Debug\net8.0\scopedcss\Views\Login\CreateLabo.cshtml.rz.scp.css
+C:\Users\radoi\RiderProjects\TestIdntity\GLAB.Test\obj\Debug\net8.0\scopedcss\Views\Login\CreateLabo2.cshtml.rz.scp.css

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0xJPfTGL+satbBLyUfqE0ObGodEtyKEgeszg3pm/7JM=",
+  "Hash": "z0HKAsOTffYXlaP4gK8ibJ5bNOPh5I7J1zfzHMpe354=",
   "Source": "GLAB.Test",
   "BasePath": "_content/GLAB.Test",
   "Mode": "Default",
@@ -380,6 +380,25 @@
       "OriginalItemSpec": "wwwroot\\1.svg"
     },
     {
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\9.svg",
+      "SourceId": "GLAB.Test",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\",
+      "BasePath": "_content/GLAB.Test",
+      "RelativePath": "9.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\9.svg"
+    },
+    {
       "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\app.css",
       "SourceId": "GLAB.Test",
       "SourceType": "Discovered",
@@ -437,6 +456,25 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\CreateLabo2.css",
+      "SourceId": "GLAB.Test",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\",
+      "BasePath": "_content/GLAB.Test",
+      "RelativePath": "CreateLabo2.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CreateLabo2.css"
+    },
+    {
       "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\favicon.png",
       "SourceId": "GLAB.Test",
       "SourceType": "Discovered",
@@ -492,6 +530,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\LoginPage.css"
+    },
+    {
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\LoginUser.css",
+      "SourceId": "GLAB.Test",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\",
+      "BasePath": "_content/GLAB.Test",
+      "RelativePath": "LoginUser.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\LoginUser.css"
     }
   ]
 }

@@ -40,7 +40,7 @@ namespace GLAB.Infra.Storages.MembersStorages
         public async Task InsertMember(Member member)
         {
             await using var connection = new SqlConnection(connectionString);
-            SqlCommand cmd = new("INSERT INTO dbo.Members(MemberId, FirstName, LastName, Email, NIC, PhoneNumber, Logo) " +
+            SqlCommand cmd = new("INSERT INTO dbo.Members(MemberId, FirstName, LastName, Email, NIC, PhoneNumber, Image) " +
                                  "VALUES(@MemberId, @FirstName, @LastName, @Email, @NIC, @PhoneNumber, @Logo)", connection);
 
             cmd.Parameters.AddWithValue("@MemberId", member.MemberId);
@@ -49,7 +49,7 @@ namespace GLAB.Infra.Storages.MembersStorages
             cmd.Parameters.AddWithValue("@Email", member.Email);
             cmd.Parameters.AddWithValue("@NIC", member.NIC);
             cmd.Parameters.AddWithValue("@PhoneNumber", member.PhoneNumber);
-            cmd.Parameters.AddWithValue("@Logo", member.Logo);
+            cmd.Parameters.AddWithValue("@Logo", member.Image);
 
             await connection.OpenAsync();
             await cmd.ExecuteNonQueryAsync();
@@ -98,7 +98,7 @@ namespace GLAB.Infra.Storages.MembersStorages
             cmd.Parameters.AddWithValue("@Email", member.Email);
             cmd.Parameters.AddWithValue("@NIC", member.NIC);
             cmd.Parameters.AddWithValue("@PhoneNumber", member.PhoneNumber);
-            cmd.Parameters.AddWithValue("@Logo", member.Logo);
+            cmd.Parameters.AddWithValue("@Logo", member.Image);
             cmd.Parameters.AddWithValue("@MemberId", member.MemberId);
 
             await cmd.ExecuteNonQueryAsync();
@@ -113,7 +113,7 @@ namespace GLAB.Infra.Storages.MembersStorages
                 Email = (string)row["Email"],
                 NIC = (string)row["NIC"],
                 PhoneNumber = (string)row["PhoneNumber"],
-                Logo = (byte[])row["Logo"]
+                Image = (byte[])row["Image"]
             };
         }
 

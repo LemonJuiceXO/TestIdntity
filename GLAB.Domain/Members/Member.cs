@@ -14,7 +14,7 @@ namespace GLAB.Domains.Models.Members
         public string Email { get; set; }
         public string NIC { get; set; }
         public string PhoneNumber { get; set; }
-        public byte[] Logo { get; set; } = new byte[] { };
+        public byte[] Image { get; set; } = new byte[] { };
 
 
 

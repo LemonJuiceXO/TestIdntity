@@ -14,10 +14,9 @@ public interface IAccount
     public enum LoginStatus
     {
         CanLogin,
-        UserBlocked ,
+        UserBlocked,
         UserNotExists,
         WrongCredentials
-        
     }
     
 }

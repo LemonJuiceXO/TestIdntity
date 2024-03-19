@@ -1,0 +1,182 @@
+@*@page "/MainPage"
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+    <h1>Welcome</h1>
+    <form method="post" action="/Login/Logout">
+        <button>LOGOUT</button> 
+    </form>
+   
+</div>
+</body>
+</html>*@
+@*@page "/MainPage"*@
+@*@{
+    Layout = null;
+}*@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="../../wwwroot/CreateLabo2.css" />
+
+
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/dc476cd79a.js" crossorigin="anonymous"></script>
+
+    <nav>
+        <span> <i class="fa-solid fa-flask fa-rotate-by" style="color: #4fa66e; --fa-rotate-angle: #80E99deg;"></i> Create  Laboratory </span>
+        <span><a href="login.html">Singi in</a></span>
+    </nav>
+
+
+
+  <form data-multi-step class="multi-step-form">
+    <div class="card" data-step>
+        <h5>STEP 1 OF 3</h5>
+      <h3 class="step-title">Set up your Names</h3>
+
+      <div class="form-group">
+        <input type="text" name="Laboratory" id="Laboratory" placeholder="Name of Laboratory">
+      </div>
+
+      <div class="form-group">
+          <input type="text" name="University" id="University" placeholder="Name of University">
+      </div>
+
+
+       <div class="form-group">
+           <input type="text" name="Faculty" id="Faculty" placeholder="Name of  Faculty">
+       </div>
+
+
+
+       <div class="form-group">
+           <input type="text" name="Department" id="Department" placeholder="Name of Department">
+       </div>
+       <div class="pos-btn">
+        <button type="button" data-next>Next</button>
+       </div>
+      
+    </div>
+
+    <div class="card" data-step>
+        <h5>STEP 2 OF 3</h5>
+      <h3 class="step-title">Set up your Contact Infprmation</h3>
+        
+      <div class="form-group">
+        <input type="email" name="Email" id="Email" placeholder="Email">
+    </div>
+
+    <div class="form-group">
+        <input type="text" name="Adresse" id="Adresse" placeholder="Adresse">
+    </div>
+
+
+    <div class="form-group">
+        <input type="text" name="Acronyme" id="Acronyme" placeholder="Acronyme">
+    </div>
+
+
+
+    <div class="form-group">
+        <input type="text" name="Agrement" id="Agrement" placeholder="Number of Agrement">
+    </div>
+
+    <div class="form-group">
+        <input type="text" name="Phone" id="Phone" placeholder="Number of Phone">
+    </div>
+
+    <div class="pos-btn">
+      <button type="button" data-previous>Previous</button>
+      <button type="button" data-next>Next</button>
+    </div>
+    </div>
+
+
+
+
+    <div class="card" data-step>
+
+        <h5>STEP 3 OF 3</h5> 
+      <h3 class="step-title">Set up your Logo</h3>
+
+      <div class="form-group card-imag">
+        <div class="card-upload pos-btn">
+
+                    <div class="pos-cam">
+                        <label for="inputTag">
+                            Select Image <br />
+                            <i class="fa fa-2x fa-camera"></i>
+                            <input id="inputTag" type="file" />
+                            <br />
+                            <span id="imageName"></span>
+                        </label>
+                    </div>
+
+        </div>
+        
+    </div>
+    <div class="pos-btn pos-btn-upload">
+      <button type="button" data-previous>Previous</button>
+      <button type="submit">Submit</button>
+    </div>
+    </div>
+  </form>
+
+    <script>
+        const multiStepForm = document.querySelector("[data-multi-step]")
+        const formSteps = [...multiStepForm.querySelectorAll("[data-step]")]
+        let currentStep = formSteps.findIndex(step => {
+            return step.classList.contains("active")
+        })
+
+        if (currentStep < 0) {
+            currentStep = 0
+            showCurrentStep()
+        }
+
+        multiStepForm.addEventListener("click", e => {
+            let incrementor
+            if (e.target.matches("[data-next]")) {
+                incrementor = 1
+            } else if (e.target.matches("[data-previous]")) {
+                incrementor = -1
+            }
+
+            if (incrementor == null) return
+
+            const inputs = [...formSteps[currentStep].querySelectorAll("input")]
+            const allValid = inputs.every(input => input.reportValidity())
+            if (allValid) {
+                currentStep += incrementor
+                showCurrentStep()
+            }
+        })
+
+        formSteps.forEach(step => {
+            step.addEventListener("animationend", e => {
+                formSteps[currentStep].classList.remove("hide")
+                e.target.classList.toggle("hide", !e.target.classList.contains("active"))
+            })
+        })
+
+        function showCurrentStep() {
+            formSteps.forEach((step, index) => {
+                step.classList.toggle("active", index === currentStep)
+            })
+        }
+    </script>
+  </body>
+  </html>
