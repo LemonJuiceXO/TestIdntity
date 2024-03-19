@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "qfFmZiLzVlMEw7kc3pJsBF0iH28jz6+mf7YQ0goLfQMHqKW35/YiqPHMBNd9qMtoOb/Zahi/5wf6l35dSa6jTQ==",
+  "dgSpecHash": "0SY3scy8Bb3+pdgFderXGEkzugESrcpVeKE8eZ+Lk1KmXJaap4ehl+tklNCP1opacsFh+jTNVGmtt+pbNfCnqA==",
   "success": true,
-  "projectFilePath": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/GLAB.APP.csproj",
+  "projectFilePath": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.APP\\GLAB.APP.csproj",
   "expectedPackageFiles": [
-    "/Users/bunny/.nuget/packages/jwt/10.0.2/jwt.10.0.2.nupkg.sha512",
-    "/Users/bunny/.nuget/packages/jwt.extensions.aspnetcore/10.1.1/jwt.extensions.aspnetcore.10.1.1.nupkg.sha512",
-    "/Users/bunny/.nuget/packages/jwt.extensions.dependencyinjection/2.2.3/jwt.extensions.dependencyinjection.2.2.3.nupkg.sha512",
-    "/Users/bunny/.nuget/packages/microsoft.aspnetcore.testhost/6.0.13/microsoft.aspnetcore.testhost.6.0.13.nupkg.sha512",
-    "/Users/bunny/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.32/microsoft.extensions.dependencyinjection.abstractions.3.1.32.nupkg.sha512",
-    "/Users/bunny/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",
-    "/Users/bunny/.nuget/packages/system.io.pipelines/6.0.3/system.io.pipelines.6.0.3.nupkg.sha512",
-    "/Users/bunny/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "/Users/bunny/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
-    "/Users/bunny/.nuget/packages/system.text.json/6.0.7/system.text.json.6.0.7.nupkg.sha512"
+    "C:\\Users\\radoi\\.nuget\\packages\\jwt\\10.0.2\\jwt.10.0.2.nupkg.sha512",
+    "C:\\Users\\radoi\\.nuget\\packages\\jwt.extensions.aspnetcore\\10.1.1\\jwt.extensions.aspnetcore.10.1.1.nupkg.sha512",
+    "C:\\Users\\radoi\\.nuget\\packages\\jwt.extensions.dependencyinjection\\2.2.3\\jwt.extensions.dependencyinjection.2.2.3.nupkg.sha512",
+    "C:\\Users\\radoi\\.nuget\\packages\\microsoft.aspnetcore.testhost\\6.0.13\\microsoft.aspnetcore.testhost.6.0.13.nupkg.sha512",
+    "C:\\Users\\radoi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.32\\microsoft.extensions.dependencyinjection.abstractions.3.1.32.nupkg.sha512",
+    "C:\\Users\\radoi\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\radoi\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
+    "C:\\Users\\radoi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\radoi\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\radoi\\.nuget\\packages\\system.text.json\\6.0.7\\system.text.json.6.0.7.nupkg.sha512"
   ],
   "logs": []
 }

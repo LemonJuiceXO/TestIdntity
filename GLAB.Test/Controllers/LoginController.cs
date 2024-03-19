@@ -129,6 +129,7 @@ public class LoginController : Controller
         HttpContext.SignOutAsync();
       return RedirectToAction("LoginPage");
     }
+    //GUID
     
     
 }

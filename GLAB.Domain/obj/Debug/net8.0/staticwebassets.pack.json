@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/scopedcss/projectbundle/GLAB.Domain.bundle.scp.css",
-      "PackagePath": "staticwebassets/GLAB.Domain.bundle.scp.css"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Domain\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GLAB.Domain.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GLAB.Domain.bundle.scp.css"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.GLAB.Domain.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GLAB.Domain.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.GLAB.Domain.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GLAB.Domain.props",
       "PackagePath": "build\\GLAB.Domain.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.GLAB.Domain.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GLAB.Domain.props",
       "PackagePath": "buildMultiTargeting\\GLAB.Domain.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.GLAB.Domain.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GLAB.Domain.props",
       "PackagePath": "buildTransitive\\GLAB.Domain.props"
     }
   ],

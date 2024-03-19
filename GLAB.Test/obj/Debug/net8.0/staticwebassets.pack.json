@@ -1,55 +1,55 @@
 {
   "Files": [
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Test/obj/Debug/net8.0/scopedcss/projectbundle/GLAB.Test.bundle.scp.css",
-      "PackagePath": "staticwebassets/GLAB.Test.bundle.scp.css"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GLAB.Test.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GLAB.Test.bundle.scp.css"
     },
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Test/wwwroot/1.png",
-      "PackagePath": "staticwebassets/1.png"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\1.png",
+      "PackagePath": "staticwebassets\\1.png"
     },
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Test/wwwroot/1.svg",
-      "PackagePath": "staticwebassets/1.svg"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\1.svg",
+      "PackagePath": "staticwebassets\\1.svg"
     },
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Test/wwwroot/IMG_0324.JPG",
-      "PackagePath": "staticwebassets/IMG_0324.JPG"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\IMG_0324.JPG",
+      "PackagePath": "staticwebassets\\IMG_0324.JPG"
     },
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Test/wwwroot/LoginPage.css",
-      "PackagePath": "staticwebassets/LoginPage.css"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\LoginPage.css",
+      "PackagePath": "staticwebassets\\LoginPage.css"
     },
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Test/wwwroot/app.css",
-      "PackagePath": "staticwebassets/app.css"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Test/wwwroot/bootstrap/bootstrap.min.css",
-      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Test/wwwroot/bootstrap/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Test/wwwroot/favicon.png",
-      "PackagePath": "staticwebassets/favicon.png"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Test\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.GLAB.Test.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GLAB.Test.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.GLAB.Test.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GLAB.Test.props",
       "PackagePath": "build\\GLAB.Test.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.GLAB.Test.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GLAB.Test.props",
       "PackagePath": "buildMultiTargeting\\GLAB.Test.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.GLAB.Test.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GLAB.Test.props",
       "PackagePath": "buildTransitive\\GLAB.Test.props"
     }
   ],

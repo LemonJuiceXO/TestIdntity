@@ -961,35 +961,37 @@
     ]
   },
   "packageFolders": {
-    "/Users/bunny/.nuget/packages/": {}
+    "C:\\Users\\radoi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Impl/GLAB.Impl.csproj",
+      "projectUniqueName": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Impl\\GLAB.Impl.csproj",
       "projectName": "GLAB.Impl",
-      "projectPath": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Impl/GLAB.Impl.csproj",
-      "packagesPath": "/Users/bunny/.nuget/packages/",
-      "outputPath": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Impl/obj/",
+      "projectPath": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Impl\\GLAB.Impl.csproj",
+      "packagesPath": "C:\\Users\\radoi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Impl\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/bunny/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\radoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/GLAB.APP.csproj": {
-              "projectPath": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/GLAB.APP.csproj"
+            "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.APP\\GLAB.APP.csproj": {
+              "projectPath": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.APP\\GLAB.APP.csproj"
             },
-            "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/GLAB.infra.csproj": {
-              "projectPath": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/GLAB.infra.csproj"
+            "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\GLAB.infra.csproj": {
+              "projectPath": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\GLAB.infra.csproj"
             }
           }
         }
@@ -1022,7 +1024,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

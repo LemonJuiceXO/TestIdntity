@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "0JJeREpXBgeEJDedNOwAIzGI6fdcyJqhFGPkSCVrlVI=",
+  "Hash": "8GE7HEGuixmiKgG1crdZTu3caAzxzuI01wTJXaBNAdc=",
   "Source": "GLAB.APP",
   "BasePath": "_content/GLAB.APP",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/GLAB.Domain.csproj",
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Domain\\GLAB.Domain.csproj",
       "Version": 2,
       "Source": "GLAB.Domain",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,21 +18,13 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],
-  "DiscoveryPatterns": [
-    {
-      "Name": "GLAB.APP/wwwroot",
-      "Source": "GLAB.APP",
-      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/wwwroot/",
-      "BasePath": "_content/GLAB.APP",
-      "Pattern": "**"
-    }
-  ],
+  "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/obj/Debug/net8.0/scopedcss/bundle/GLAB.APP.styles.css",
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.APP\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GLAB.APP.styles.css",
       "SourceId": "GLAB.APP",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.APP\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/GLAB.APP",
       "RelativePath": "GLAB.APP.styles.css",
       "AssetKind": "All",
@@ -45,13 +37,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/obj/Debug/net8.0/scopedcss/bundle/GLAB.APP.styles.css"
+      "OriginalItemSpec": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.APP\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GLAB.APP.styles.css"
     },
     {
-      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/obj/Debug/net8.0/scopedcss/projectbundle/GLAB.APP.bundle.scp.css",
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.APP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GLAB.APP.bundle.scp.css",
       "SourceId": "GLAB.APP",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.APP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/GLAB.APP",
       "RelativePath": "GLAB.APP.bundle.scp.css",
       "AssetKind": "All",
@@ -64,13 +56,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/obj/Debug/net8.0/scopedcss/projectbundle/GLAB.APP.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.APP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GLAB.APP.bundle.scp.css"
     },
     {
-      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/scopedcss/projectbundle/GLAB.Domain.bundle.scp.css",
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Domain\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GLAB.Domain.bundle.scp.css",
       "SourceId": "GLAB.Domain",
       "SourceType": "Project",
-      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Domain\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/GLAB.Domain",
       "RelativePath": "GLAB.Domain.bundle.scp.css",
       "AssetKind": "All",
@@ -83,7 +75,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/scopedcss/projectbundle/GLAB.Domain.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Domain\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GLAB.Domain.bundle.scp.css"
     }
   ]
 }

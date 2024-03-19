@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "OPljbPgDAHWZ2Gnk4C5Rag0WfHq1dqa8xAQInW/kQ5I=",
+  "Hash": "vBz06AiFOqJQQGPiUq5BJyHDTanNsxBRQgkaXhalQ1U=",
   "Source": "GLAB.infra",
   "BasePath": "_content/GLAB.infra",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/GLAB.Domain.csproj",
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Domain\\GLAB.Domain.csproj",
       "Version": 2,
       "Source": "GLAB.Domain",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -20,19 +20,19 @@
   ],
   "DiscoveryPatterns": [
     {
-      "Name": "GLAB.infra/wwwroot",
+      "Name": "GLAB.infra\\wwwroot",
       "Source": "GLAB.infra",
-      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/wwwroot/",
+      "ContentRoot": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\wwwroot\\",
       "BasePath": "_content/GLAB.infra",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/scopedcss/projectbundle/GLAB.Domain.bundle.scp.css",
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Domain\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GLAB.Domain.bundle.scp.css",
       "SourceId": "GLAB.Domain",
       "SourceType": "Project",
-      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Domain\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/GLAB.Domain",
       "RelativePath": "GLAB.Domain.bundle.scp.css",
       "AssetKind": "All",
@@ -45,13 +45,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/obj/Debug/net8.0/scopedcss/projectbundle/GLAB.Domain.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Domain\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GLAB.Domain.bundle.scp.css"
     },
     {
-      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/obj/Debug/net8.0/scopedcss/bundle/GLAB.infra.styles.css",
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GLAB.infra.styles.css",
       "SourceId": "GLAB.infra",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/GLAB.infra",
       "RelativePath": "GLAB.infra.styles.css",
       "AssetKind": "All",
@@ -64,13 +64,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/obj/Debug/net8.0/scopedcss/bundle/GLAB.infra.styles.css"
+      "OriginalItemSpec": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GLAB.infra.styles.css"
     },
     {
-      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/obj/Debug/net8.0/scopedcss/projectbundle/GLAB.infra.bundle.scp.css",
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GLAB.infra.bundle.scp.css",
       "SourceId": "GLAB.infra",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/GLAB.infra",
       "RelativePath": "GLAB.infra.bundle.scp.css",
       "AssetKind": "All",
@@ -83,13 +83,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/obj/Debug/net8.0/scopedcss/projectbundle/GLAB.infra.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GLAB.infra.bundle.scp.css"
     },
     {
-      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/wwwroot/app.css",
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\wwwroot\\app.css",
       "SourceId": "GLAB.infra",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/wwwroot/",
+      "ContentRoot": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\wwwroot\\",
       "BasePath": "_content/GLAB.infra",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -102,13 +102,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/app.css"
+      "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/wwwroot/bootstrap/bootstrap.min.css",
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "GLAB.infra",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/wwwroot/",
+      "ContentRoot": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\wwwroot\\",
       "BasePath": "_content/GLAB.infra",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -121,13 +121,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "GLAB.infra",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/wwwroot/",
+      "ContentRoot": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\wwwroot\\",
       "BasePath": "_content/GLAB.infra",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -140,13 +140,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/wwwroot/favicon.png",
+      "Identity": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\wwwroot\\favicon.png",
       "SourceId": "GLAB.infra",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/wwwroot/",
+      "ContentRoot": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\wwwroot\\",
       "BasePath": "_content/GLAB.infra",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -159,7 +159,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.png"
+      "OriginalItemSpec": "wwwroot\\favicon.png"
     }
   ]
 }

@@ -459,32 +459,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/bunny/.nuget/packages/": {}
+    "C:\\Users\\radoi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/GLAB.APP.csproj",
+      "projectUniqueName": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.APP\\GLAB.APP.csproj",
       "projectName": "GLAB.APP",
-      "projectPath": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/GLAB.APP.csproj",
-      "packagesPath": "/Users/bunny/.nuget/packages/",
-      "outputPath": "/Users/bunny/RiderProjects/TestIdntity/GLAB.APP/obj/",
+      "projectPath": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.APP\\GLAB.APP.csproj",
+      "packagesPath": "C:\\Users\\radoi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.APP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/bunny/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\radoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/GLAB.Domain.csproj": {
-              "projectPath": "/Users/bunny/RiderProjects/TestIdntity/GLAB.Domain/GLAB.Domain.csproj"
+            "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Domain\\GLAB.Domain.csproj": {
+              "projectPath": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.Domain\\GLAB.Domain.csproj"
             }
           }
         }
@@ -523,7 +525,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

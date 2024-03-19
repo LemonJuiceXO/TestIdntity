@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../buildMultiTargeting/GLAB.infra.props" />
+  <Import Project="..\buildMultiTargeting\GLAB.infra.props" />
 </Project>

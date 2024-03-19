@@ -1,39 +1,39 @@
 {
   "Files": [
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/obj/Debug/net8.0/scopedcss/projectbundle/GLAB.infra.bundle.scp.css",
-      "PackagePath": "staticwebassets/GLAB.infra.bundle.scp.css"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GLAB.infra.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GLAB.infra.bundle.scp.css"
     },
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/wwwroot/app.css",
-      "PackagePath": "staticwebassets/app.css"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/wwwroot/bootstrap/bootstrap.min.css",
-      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/wwwroot/bootstrap/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/bunny/RiderProjects/TestIdntity/GLAB.infra/wwwroot/favicon.png",
-      "PackagePath": "staticwebassets/favicon.png"
+      "Id": "C:\\Users\\radoi\\RiderProjects\\TestIdntity\\GLAB.infra\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.GLAB.infra.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GLAB.infra.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.GLAB.infra.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GLAB.infra.props",
       "PackagePath": "build\\GLAB.infra.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.GLAB.infra.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GLAB.infra.props",
       "PackagePath": "buildMultiTargeting\\GLAB.infra.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.GLAB.infra.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GLAB.infra.props",
       "PackagePath": "buildTransitive\\GLAB.infra.props"
     }
   ],
