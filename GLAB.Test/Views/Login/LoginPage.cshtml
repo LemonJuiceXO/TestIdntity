@@ -3,29 +3,36 @@
 
 
 <head>
-<link rel="stylesheet" href="LoginPage.css" />
+    <link rel="stylesheet" href="LoginPage.css" />
 
 </head>
+
+
 <form method="post" action="/Login/Login" class="loginform">
+  
+    <img src="1.png" class="logo" />
+  
     <div>
-        <img src="IMG_0324.JPG" class="image"/>
-    </div>
-    <div>
-        <input type="email" name="username" class="Fields" placeholder="UserName"/>
-    </div>
-
-    <div>
-        <input type="password" name="password" class="Fields" placeholder="Password"/>
+        <input type="email" name="username" class="email" placeholder="اسم المستخدم"/>
     </div>
 
     <div>
-        <button class="loginButton" onclick="">Login</button>
+        <input type="password" name="password" class="password" placeholder="كلمة المرور"/>
+    </div>
+
+    <div>
+        <button class="loginButton" onclick="">دخول</button>
     </div>
    
-         @if (!string.IsNullOrEmpty(ViewBag.Error))
-            {
-                <div style="color: red;">@ViewBag.Error</div>
-            }
+    @if (!string.IsNullOrEmpty(ViewBag.Error))
+    {
+        <div style="color: #ff0059; margin-top: 30px ">@ViewBag.Error</div>
+    }
 
 </form>
+
+<script>
+
+
+</script>
 

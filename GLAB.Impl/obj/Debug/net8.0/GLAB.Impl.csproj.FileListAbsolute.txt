@@ -53,3 +53,8 @@
 /Users/bunny/RiderProjects/TestIdntity/GLAB.Impl/obj/Debug/net8.0/GLAB.Impl.genruntimeconfig.cache
 /Users/bunny/RiderProjects/TestIdntity/GLAB.Impl/obj/Debug/net8.0/ref/GLAB.Impl.dll
 /Users/bunny/RiderProjects/TestIdntity/GLAB.Impl/obj/Debug/net8.0/GLAB.Impl.sourcelink.json
+/Users/bunny/RiderProjects/TestIdntity/GLAB.Impl/bin/Debug/net8.0/JWT.dll
+/Users/bunny/RiderProjects/TestIdntity/GLAB.Impl/bin/Debug/net8.0/JWT.Extensions.AspNetCore.dll
+/Users/bunny/RiderProjects/TestIdntity/GLAB.Impl/bin/Debug/net8.0/JWT.Extensions.DependencyInjection.dll
+/Users/bunny/RiderProjects/TestIdntity/GLAB.Impl/bin/Debug/net8.0/Microsoft.AspNetCore.TestHost.dll
+/Users/bunny/RiderProjects/TestIdntity/GLAB.Impl/bin/Debug/net8.0/Newtonsoft.Json.dll

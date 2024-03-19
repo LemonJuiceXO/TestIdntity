@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GLAB.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79d8f78be343a7fa6d8a80d48521c87cc41b86f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31e8b5bccbde85978abdb70e8709b56b396cd730")]
 [assembly: System.Reflection.AssemblyProductAttribute("GLAB.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GLAB.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

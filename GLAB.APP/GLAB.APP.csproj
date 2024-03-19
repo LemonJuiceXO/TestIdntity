@@ -26,4 +26,8 @@
       <Folder Include="wwwroot\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="JWT.Extensions.AspNetCore" Version="10.1.1" />
+    </ItemGroup>
+
 </Project>

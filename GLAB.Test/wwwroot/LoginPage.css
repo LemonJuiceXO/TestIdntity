@@ -12,19 +12,51 @@
         background-color: rgba(8, 133, 105, 0.6);
          height: 100%;
     }
-    .image{
-      width: 200px;
-        height: 200px;
+    @keyframes logoAnimation {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
     }
-    .Fields{
+
+    .logo {
+        animation: logoAnimation 3s ease-in-out infinite;
+    }
+    
+  .logo{
+      width: 30vh;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 30px;
+  }
+    .email{
         border-color: black;
         border-width: 1px;
         border-style: solid;
         border-radius: 5px;
+        width: 55vh;
+        height: 30px;
         padding: 5px;
         margin: 10px;
         text-align: -webkit-center;
         
+    }
+    
+    .password {
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        width: 40vh;
+        padding: 5px;
+        margin: 10px;
+        margin-bottom: 30px;
+        text-align: -webkit-center;
     }
     ::placeholder {
         text-align: center;
@@ -43,7 +75,9 @@
         text-align: center;
         width: 60px;
     }
+   
     .loginButton:hover{
+        width: 100px;
         cursor: pointer;
         background-color: #2d9bbd;
         border-color: transparent;
