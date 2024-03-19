@@ -43,6 +43,12 @@ public class UserService : IUserService
     public async Task<bool> ValidatePassword(string userId, string userPassword)
     {
        string password= await userStorage.SelectUserPassword(userId);
+        
        return BCrypt.CheckPassword(userPassword, password);
+    }
+
+    public async Task<List<ApplicationRole>> getUserRoles(string userId)
+    {
+        return null;
     }
 }

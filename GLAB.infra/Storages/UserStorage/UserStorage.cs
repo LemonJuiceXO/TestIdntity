@@ -105,6 +105,7 @@ namespace Users.Infra.Storages
             cmd.Parameters.AddWithValue("@aPassword", user.Password);
 
             connection.Open();
+            
             int insertedRows = await cmd.ExecuteNonQueryAsync();
             return (insertedRows > 0);
         }
