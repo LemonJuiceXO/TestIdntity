@@ -1,45 +1,19 @@
-@*@page "/MainPage"
-
-@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
-
-<html>
 <head>
-    <title>title</title>
-</head>
-<body>
-<div>
-    <h1>Welcome</h1>
-    <form method="post" action="/Login/Logout">
-        <button>LOGOUT</button> 
-    </form>
-   
-</div>
-</body>
-</html>*@
-@*@page "/MainPage"*@
-@*@{
-    Layout = null;
-}*@
-<!DOCTYPE html>
-
-<html>
-<head>
-    <link rel="stylesheet" href="CreateLabo2.css" />
+    <link rel="stylesheet" href="../CreateLabo2.css" />
 
 
 </head>
-<body>
-    <script src="https://kit.fontawesome.com/dc476cd79a.js" crossorigin="anonymous"></script>
 
+<body>
+<script src="https://kit.fontawesome.com/dc476cd79a.js" crossorigin="anonymous"></script>
+
+  <form method="post" action="/Login/Logout" class="loginform">
     <nav>
         <span> <i class="fa-solid fa-flask fa-rotate-by" style="color: #4fa66e; --fa-rotate-angle: #80E99deg;"></i> Create  Laboratory </span>
-        <span><a href="login.html">Singi in</a></span>
+        <span><button  onclick="">خروج</button></span>
+        
     </nav>
-
+      </form> 
 
 
   <form data-multi-step class="multi-step-form">
@@ -179,4 +153,4 @@
         }
     </script>
   </body>
-  </html>
+ 

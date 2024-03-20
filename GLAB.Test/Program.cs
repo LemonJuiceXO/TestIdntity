@@ -52,6 +52,10 @@
         name: "default",
         pattern: "{controller=Login}/{action=LoginPage}"
     );
+    /*app.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Login}/{action=Logout}"
+    );*/
    
 
 
