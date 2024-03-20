@@ -71,7 +71,10 @@
                 
                 <button  onclick="">دخول</button>
 
-                <h3>No account? <a href="#">request membership</a> </h3>
+                @if (!string.IsNullOrEmpty(ViewBag.Error))
+                    {
+                        <div style="color: #ff0059; margin-top: 30px ">@ViewBag.Error</div>
+                    }
             </form>
         </div>
       

@@ -132,12 +132,7 @@ public class LoginController : Controller
       return RedirectToAction("LoginPage");
       
     }
-    //GUID
-    /*public async Task<IActionResult> Logout()
-    {
-        await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-        return RedirectToAction("LoginPage", "Login"); // Rediriger vers la page de connexion après la déconnexion.
-    }*/
+   
     
     
 }
